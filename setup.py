@@ -3,12 +3,13 @@ from setuptools import setup
 import os
 
 packages = \
-['azure_telemetry']
+['azure-monitor-mounter']
 
 package_data = \
 {'': ['*']}
 
-READ_ME = open(os.path.join(DIRECTORY, "README.rst")).read()
+DIRECTORY = os.path.dirname(__file__)
+READ_ME = open(os.path.join(DIRECTORY, "README.txt")).read()
 
 install_requires = \
 ['azure-mgmt-datalake-analytics>=0.6.0,<0.7.0',
