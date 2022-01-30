@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "azure-telemetry"
 version = "0.1.0"
-long_description = "This package is used for mounting any kind of storage account into Databricks using keyvault and for general logging as well"
+description = "This package is used for mounting any kind of storage account into Databricks using keyvault and for general logging as well"
 authors = ["RajamannarAanjaram <rajamannaraanjaram@gmail.com>"]
 
 [tool.poetry.dependencies]
