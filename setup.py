@@ -3,7 +3,7 @@ from setuptools import setup
 import os
 
 packages = \
-['azure-monitor-mounter']
+['azure_telemetry']
 
 package_data = \
 {'': ['*']}
